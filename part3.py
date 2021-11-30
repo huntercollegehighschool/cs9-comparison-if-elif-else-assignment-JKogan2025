@@ -30,5 +30,5 @@ elif num == 0:
 
 if num % 3 == 0:
   print("divisible by 3")
-elif num % 3 > 0 or num % 3 < 0:
+elif num % 3 == 0 or num % 3 < 0:
   print("not divisible by 3")
